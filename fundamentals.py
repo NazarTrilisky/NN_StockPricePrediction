@@ -295,13 +295,9 @@ def store_full_data_set(formatted_data_dir):
     all_files = os.listdir(fundamentals_dir)
     num_files = len(all_files)
     for indx in range(num_files):
-
-
         file_name = all_files[indx]
         #print("Processing file %s" % file_name)
         print("File %s of %s" % (indx, num_files))
-
-
         try:
             train_data_part, train_labels_part, year_ranges_part = \
               get_train_and_test_data(file_name)
@@ -309,7 +305,6 @@ def store_full_data_set(formatted_data_dir):
             stack_trace = traceback.format_stack()
             print("Skipping %s due to error %s" % (file_name, exc))
             continue
-
 
         train_data += train_data_part
         train_labels += train_labels_part
