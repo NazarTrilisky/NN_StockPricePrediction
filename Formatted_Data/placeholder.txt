@@ -1,0 +1,1 @@
+The processed .npy files will go here with training data ready for Keras model's consumption.
