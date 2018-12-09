@@ -3,7 +3,7 @@ Getting Fundamentals Data
 
 1. Populate "tickers.txt" with ticker symbols: one on each line
 2. Run "python pull_morningstar_data.py" for the csv files to be placed into
-   '/home/user1/Desktop/Morningstar_Data'
+   '~/Desktop/Morningstar_Data'
 
 
 
