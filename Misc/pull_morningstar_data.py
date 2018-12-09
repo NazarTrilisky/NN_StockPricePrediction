@@ -6,7 +6,7 @@ with open('tickers.txt', 'r') as fh:
 
 url = 'http://financials.morningstar.com/ajax/exportKR2CSV.html?t=TICKERHERE&culture=en-CA&region=USA&order=desc'
 
-folder_path = '/home/user1/Desktop/Morningstar_Data'
+folder_path = '~/Desktop/Morningstar_Data'
 file_base = 'TICKERHERE Key Ratios.csv'
 
 tickers = []
