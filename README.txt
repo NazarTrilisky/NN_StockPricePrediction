@@ -21,3 +21,5 @@ Running Technical Data
    which will be placed into the "Formatted_Data" folder.
 2. Run "python nn_classification.py" to create and test a model.
 
+
+Note: developed using Python 2.7.15.
