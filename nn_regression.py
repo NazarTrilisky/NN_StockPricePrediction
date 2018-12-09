@@ -11,8 +11,6 @@ import matplotlib.pyplot as plt
 from fundamentals import load_full_data_set as load_fundamentals_data
 from fundamentals import METRIC_NAMES
 
-FUNDAMENTALS_MODEL_NAME = 'fundamentals_model.h5'
-
 # sudo apt-get install python-tk
 # sudo apt-get install python-gtk2-dev
 # pip install -U matplotlib
