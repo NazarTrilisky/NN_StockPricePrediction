@@ -1,0 +1,4 @@
+This is where Kaggle's technical data will go.
+Source: https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
+
+Including three files as examples.
