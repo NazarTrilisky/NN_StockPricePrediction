@@ -1,4 +1,5 @@
   Abstract
+  
   This project searched for patterns in technical data (prices, volumes) and fundamentals data (54 metrics).  The aimed was to predict future stock prices.  Neural networks (NN) were used as models.
   
   The technical data input was a list of weekly price and volume averages over a 3 to 8-year period.  The fundamentals data input was a list of fundamental metric slopes over 3-year windows.  For example if P/E was 15, 20, and 25 over 3 years, then the P/E slope of +5 / yr was used.  The output was a predicted price change over the following 12 months, the 4th year.
