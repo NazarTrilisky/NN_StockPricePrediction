@@ -1,8 +1,8 @@
   Abstract
-  This project searched for patterns in technical data (prices, volumes) and fundamentals data (54 metrics) aimed at predicting future stock prices.  Neural networks (NN) were used as models.
-  The technical data input was a list of weekly price and volume averages over a 3 to 8-year period.  The fundamentals data input was a list of fundamental metric slopes over 3-year windows.  The output was a predicted price change over the next 12 months.
+  This project searched for patterns in technical data (prices, volumes) and fundamentals data (54 metrics).  The aimed was to predict future stock prices.  Neural networks (NN) were used as models.
+  The technical data input was a list of weekly price and volume averages over a 3 to 8-year period.  The fundamentals data input was a list of fundamental metric slopes over 3-year windows.  For example if P/E was 15, 20, and 25 over 3 years, then the P/E slope of +5 / yr was used.  The output was a predicted price change over the following 12 months, the 4th year.
   The fundamentals approach showed a small (~1%) improvement in prediction compared to random guessing.  The technical approach did not show any improvement over random guessing.
-  From a personal investment standpoint, I am sticking to old school value investing.  The NN model may work for large investment institutions that have high trading volumes and the small edge will show up in the average.  My number of trades is too small to justify using the NN as a key decision factor.
+  From a personal investment standpoint, I am sticking to old school value investing.  The NN model may work for large investment institutions that have high trading volumes and the small edge will give them an average.  My number of trades is too small to justify using the NN as a key decision factor.
 See "StockPrediction_Technical_vs_Fundamentals.odt" for more details.
 
 Getting Fundamentals Data
