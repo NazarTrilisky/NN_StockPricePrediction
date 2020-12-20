@@ -6,7 +6,7 @@
   
   The fundamentals approach showed a small (~1%) improvement in prediction compared to random guessing.  The technical approach did not show any improvement over random guessing.  Included document "StockPrediction_Technical_vs_Fundamentals.odt" has more details.
   
-  From a personal investment standpoint, I am sticking to old school value investing.  The NN model may work for large investment institutions that have high trading volumes and the small edge will give them an advantage.  My number of trades is too small to justify using the NN as a key decision factor.  My site http://marketmeaning.com reflects one more favorable approach: comparing insider and outsider sentiment to make buy/sell decisions.
+  From a personal investment standpoint, I am sticking to old school value investing.  The NN model may work for large investment institutions that have high trading volumes and the small edge will give them an advantage.  My number of trades is too small to justify using the NN as a key decision factor.
 
 Getting Fundamentals Data
 1. Populate "tickers.txt" with ticker symbols: one on each line
